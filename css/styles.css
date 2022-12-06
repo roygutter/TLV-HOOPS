@@ -1,0 +1,214 @@
+body{
+    text-transform: uppercase;
+    font-family: bradley hand,cursive;
+}
+
+.top-container{
+    color: black !important;
+    background-color:grey;
+    font-family: bradley hand,cursive;
+   margin: 0;
+   
+  
+}
+.top-container p{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+   font-size: 3rem;
+}
+.top-container h1{
+    text-align: center;
+    font-size: 6rem !important;
+    margin: 0;
+    opacity: 100% !important; 
+}
+
+.top-container a{
+    color: #f2f2f2;
+     text-decoration: none;  
+}
+.seacond-container {
+    background-image: url("https://d1l5jyrrh5eluf.cloudfront.net/wp-content/uploads/2017/07/indoorhoops.jpg");
+     opacity: 87%; 
+   height: 75vh; width: 100vw;
+   background-size: cover;
+    background-repeat: no-repeat;
+    font-family: bradley hand,cursive;
+    color: black;
+    margin-top: 0; 
+}
+.seacond-container h1{
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    font-family: bradley hand,cursive;
+    font-size: 6rem;
+    text-align: center;
+    color: black;
+    padding-top: 16%;
+   opacity: 100% !important;
+}
+.list{
+    /* position: absolute; */
+    border: 4px solid black;
+    width: 30vw;
+    height: 25vh;
+    text-align: center;
+    color: black;
+    font-family: bradley hand,cursive;
+    margin: 0;
+    font-size: 2rem;
+    background-color: grey;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around; 
+     margin: 2%;
+    
+}
+.rules{
+    background-image: url(https://img.freepik.com/premium-photo/wooden-floor-basketball-court_488220-506.jpg?w=2000);
+    height: 100vh; width: 100vw;
+   background-size: cover;
+    background-repeat: no-repeat;
+    font-family: bradley hand,cursive;
+    color: black;
+    flex-direction: column;
+    display: flex;    
+}
+.rules h1{
+    text-align: center;
+    font-size: 10rem;
+}
+ .table{
+    font-family: bradley hand,cursive;
+   
+    text-align:justify;
+    width: 100vw;
+    display:flex;
+    font-size: 3rem;
+    justify-content: space-between;
+    margin: 0 auto; 
+    border-collapse: collapse;
+  }  
+   .table td{
+   padding: 2rem;}
+  
+
+ .black{
+    background-color: black;
+    color: white;
+} 
+.logosrules{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 8%;
+}
+.logosrules div{
+    flex-direction: column;
+  display: flex;
+  justify-content:space-between;
+  justify-content: center;
+   padding: 2%; 
+    width: 80%;
+    height: 80%;
+    font-size: 1.8rem;
+    text-align: center;
+    
+}
+
+.rules img{
+     height: 10rem; width: 10rem;
+    
+    text-align: center;
+    justify-content: center;
+}
+.hr {
+    border: 4px solid grey;
+}
+.bottom{
+    background-color: grey;
+
+}
+.sociallogos{
+     flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+/* .sociallogos img{
+  
+   
+
+} */
+body{
+    margin: 0;
+    background-color: grey;
+    width: 100vw;
+}
+.top-container-signup{
+    margin: 0;
+    height: 150px;
+}
+.top-container-signup h1{
+    text-align: center;
+    font-family: bradley hand,cursive;
+    font-size: 64px;
+   
+}
+.infodiv{
+    background-color: #E6DDC4;
+    height: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.infodiv h1{
+    font-size: 64px;
+}
+.infodiv ::placeholder{
+    text-align: center;
+}
+
+
+#text{
+    color: blue;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: 'rubik' , sans-serif;
+}
+
+
+.squars{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: 1000px;
+}
+    .square{
+        background-color: blue;
+        height: 20vh;
+        width: 20vw;
+    }
+    @media screen and (max-width: 768px){
+    .squars{flex-direction: column;
+        };
+    }
+    .eran{
+        height: 700px;
+        background-color: yellow;
+        display: flex;
+        flex-direction: row;
+        font-size: 100px;
+        justify-content: space-between;
+    }
+    @media screen and (max-width: 768px){
+        .eran{flex-direction: column;
+            }};
